@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
     <body>
         <h1>Tristan Thomspon</h1>
+        <img src="{{ url_for('static', filename='mi_img.jpg') }}" alt="My Image">
         <p>I am a computer Science student, musician and digital media enthusiast from the parish of St Thomas</p>
     </body>
 </html>
